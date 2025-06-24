@@ -1,0 +1,4 @@
+<!ELEMENT projects (project+)>
+<!ELEMENT project (year, description)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT description (#PCDATA)>

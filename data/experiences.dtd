@@ -1,0 +1,8 @@
+<!ELEMENT experiences (experience+)>
+<!ELEMENT experience (entreprise, type, poste, description, images)>
+<!ELEMENT entreprise (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT poste (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT images (image+)>
+<!ELEMENT image (#PCDATA)>

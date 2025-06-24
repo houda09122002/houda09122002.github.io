@@ -1,0 +1,16 @@
+<!ELEMENT portfolio (metadata, languages, cards, person)>
+<!ELEMENT metadata (name, language, description, author, dateModified)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT language (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT dateModified (#PCDATA)>
+<!ELEMENT languages (lang+)>
+<!ELEMENT lang (#PCDATA)>
+<!ELEMENT cards (card+)>
+<!ELEMENT card (#PCDATA)>
+<!ATTLIST card href CDATA #REQUIRED>
+<!ELEMENT person (name, jobTitle, knowsAbout, knowsLanguage+)>
+<!ELEMENT jobTitle (#PCDATA)>
+<!ELEMENT knowsAbout (#PCDATA)>
+<!ELEMENT knowsLanguage (#PCDATA)>

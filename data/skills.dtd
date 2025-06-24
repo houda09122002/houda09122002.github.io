@@ -1,0 +1,4 @@
+<!ELEMENT skills (section+)>
+<!ELEMENT section (title, description)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT description (#PCDATA)>

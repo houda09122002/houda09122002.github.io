@@ -1,0 +1,11 @@
+<!ELEMENT contact (name, jobTitle, email, telephone, knowsLanguage+, sameAs, address)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT jobTitle (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT telephone (#PCDATA)>
+<!ELEMENT knowsLanguage (#PCDATA)>
+<!ELEMENT sameAs (#PCDATA)>
+<!ELEMENT address (addressLocality, addressRegion, addressCountry)>
+<!ELEMENT addressLocality (#PCDATA)>
+<!ELEMENT addressRegion (#PCDATA)>
+<!ELEMENT addressCountry (#PCDATA)>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE projects SYSTEM "projects.dtd">
+<projects>
+  <project>
+    <year>2024</year>
+    <description>Projets récents en alternance : gestion de rapports, ajout de la duplication et édition avancée (Equativ).</description>
+  </project>
+  <project>
+    <year>2023</year>
+    <description>Développement d'une application de gestion de pointage et accès en temps réel (Lafarge Holcim, Fès).</description>
+  </project>
+  <project>
+    <year>2022</year>
+    <description>Analyse des comportements d’achat et visualisation des données (Marjane Holding, Fès).</description>
+  </project>
+</projects>

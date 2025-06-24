@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+:root {
+  --violet: #a066c9;
+  --violet-dark: #733a99;
+  --rose: #ffc8dd;
+  --lavande: #f3e8ff;
+  --bg: #fff;
+  --text: #333;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: var(--lavande);
+  color: var(--text);
+  scroll-behavior: smooth;
+}
+
+/* Langues */
+.lang-switcher {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 100;
+}
+.lang-switcher a {
+  font-size: 1.5rem;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+/* Section Hero */
+.hero {
+  text-align: center;
+  background: linear-gradient(to right, #fce3ff, #e9d2fc);
+  padding: 3rem 1rem 2rem;
+  border-radius: 0 0 32px 32px;
+  box-shadow: 0 4px 20px rgba(160, 102, 201, 0.2);
+}
+.avatar {
+  width: 250px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.hero-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--violet-dark);
+}
+.hero-tagline {
+  font-size: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  color: #555;
+}
+
+/* Cartes */
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.card {
+  background: var(--violet);
+  color: white;
+  text-decoration: none;
+  padding: 2rem 1rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 14px rgba(160, 102, 201, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card p {
+  line-height: 1.6;
+  font-size: 0.95rem;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+.card:hover {
+  transform: translateY(-5px) scale(1.03);
+  box-shadow: 0 6px 20px rgba(115, 58, 153, 0.3);
+  background: var(--violet-dark);
+}
+.icon {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+/* Animations */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 1s ease-out forwards;
+}
+.zoom {
+  animation: zoomIn 0.6s ease-out forwards;
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 4rem;
+  padding-bottom: 1rem;
+}
+.back-button-container {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.back-button {
+  background-color: var(--violet);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(160, 102, 201, 0.2);
+  transition: all 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: var(--violet-dark);
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(115, 58, 153, 0.3);
+}
+
+.card img.project {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-top: 1rem;
+}
+
+.timeline-event {
+  position: relative;
+  margin-bottom: 2rem;
+  padding-left: 2.5rem;
+  border-left: 4px solid var(--violet);
+}
+
+.timeline-event::before {
+  content: attr(data-icon);
+  position: absolute;
+  left: -1.8rem;
+  top: 0;
+  font-size: 1.4rem;
+}
+
+.timeline-event h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: var(--violet-dark);
+}
+
+.timeline-event small {
+  color: #666;
+  font-size: 0.85rem;
+}
+
+.cert-block {
+  background: #f6e9ff;
+  border-left: 4px solid var(--violet-dark);
+  padding: 1rem 1.5rem;
+  margin-top: 2rem;
+  border-radius: 10px;
+}
+.currently-section {
+  text-align: center;
+  padding: 2rem 1rem;
+  margin: 3rem auto;
+  background: var(--card-bg);
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0 0 0 / 0.1);
+  max-width: 800px;
+}
+
+#currently-text {
+  font-size: 1.2rem;
+  color: var(--accent);
+  transition: opacity 0.3s ease;
+}
+.mascotte-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  align-items: flex-end;
+  z-index: 999;
+  animation: float 3s ease-in-out infinite;
+}
+
+.mascotte-character {
+  font-size: 3rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.mascotte-character:hover {
+  transform: scale(1.2) rotate(10deg);
+}
+
+.mascotte-bubble {
+  background: var(--card-bg);
+  color: var(--text-color);
+  border-radius: 20px;
+  padding: 10px 15px;
+  margin-right: 10px;
+  font-size: 0.9rem;
+  max-width: 200px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: opacity 0.3s ease;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-5px); }
+  100% { transform: translateY(0px); }
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="https://schema.org/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+>
+
+  <!-- Métadonnées sur la personne -->
+  <rdf:Description rdf:about="https://houda-portfolio.dev/data/#houda">
+    <rdf:type rdf:resource="https://schema.org/Person"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <schema:name>Houda Khiati</schema:name>
+    <foaf:name>Houda Khiati</foaf:name>
+    <foaf:title>Développeuse full stack</foaf:title>
+    <foaf:mbox rdf:resource="mailto:houdakht.dev@gmail.com"/>
+    <foaf:homepage rdf:resource="https://houda09122002.github.io/"/>
+    <schema:knowsAbout>Développement Web</schema:knowsAbout>
+    <foaf:knowsLanguage>français</foaf:knowsLanguage>
+    <foaf:knowsLanguage>anglais</foaf:knowsLanguage>
+    <foaf:knowsLanguage>arabe</foaf:knowsLanguage>
+  </rdf:Description>
+
+  <!-- Métadonnées sur la page web -->
+  <rdf:Description rdf:about="https://houda09122002.github.io/">
+    <rdf:type rdf:resource="https://schema.org/WebPage"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:name>Houda Khiati – Portfolio</schema:name>
+    <dc:title>Houda Khiati – Portfolio</dc:title>
+    <dc:creator>Houda Khiati</dc:creator>
+    <dc:language>fr</dc:language>
+    <schema:inLanguage>fr</schema:inLanguage>
+    <schema:description>Portfolio multilingue de Houda Khiati – Développeuse full stack</schema:description>
+    <dc:description>Portfolio multilingue de Houda Khiati – Développeuse full stack</dc:description>
+    <schema:author rdf:resource="https://houda-portfolio.dev/data/#houda"/>
+    <schema:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-06-21</schema:dateModified>
+    <dc:date>2025-06-21</dc:date>
+  </rdf:Description>
+
+</rdf:RDF>

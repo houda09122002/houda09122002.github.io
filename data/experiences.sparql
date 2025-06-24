@@ -1,0 +1,10 @@
+PREFIX schema: <https://schema.org/>
+
+SELECT ?organisation ?description
+WHERE {
+  ?org a schema:Organization ;
+       schema:name ?organisation ;
+       schema:description ?description ;
+       schema:member <https://portfolio.houda/person/houda> .
+}
+ORDER BY ?organisation

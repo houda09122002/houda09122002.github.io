@@ -1,0 +1,10 @@
+PREFIX schema: <https://schema.org/>
+
+SELECT ?titre ?niveau ?description
+WHERE {
+  ?programme a schema:EducationalOccupationalProgram ;
+             schema:name ?titre ;
+             schema:educationalLevel ?niveau ;
+             schema:description ?description .
+}
+ORDER BY ?niveau

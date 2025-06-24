@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<experiences>
+  <experience>
+    <entreprise>Equativ</entreprise>
+    <type>Alternance</type>
+    <poste>Développeuse full stack</poste>
+    <description>Travail en équipe R&amp;D sur les outils internes, développement Angular, React, Next.js.</description>
+    <images>
+      <image>equativ-logo.webp</image>
+      <image>equativ-team.webp</image>
+    </images>
+  </experience>
+  <experience>
+    <entreprise>Lafarge Holcim</entreprise>
+    <type>Stage</type>
+    <poste>Développeuse Web</poste>
+    <description>Application de gestion de profils d’accès et système de pointage en temps réel.</description>
+    <images>
+      <image>lafarge.png</image>
+    </images>
+  </experience>
+  <experience>
+    <entreprise>Marjane Holding</entreprise>
+    <type>Stage</type>
+    <poste>Data Analyst</poste>
+    <description>Analyse comportement d’achat, amélioration de la disposition des rayons, visualisation Power BI.</description>
+    <images>
+      <image>marjane.png</image>
+    </images>
+  </experience>
+</experiences>

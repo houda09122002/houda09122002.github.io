@@ -1,0 +1,16 @@
+PREFIX schema: <https://schema.org/>
+
+SELECT ?name ?jobTitle ?email ?phone ?linkedin ?city ?region ?country
+WHERE {
+  ?person a schema:Person ;
+          schema:name ?name ;
+          schema:jobTitle ?jobTitle ;
+          schema:email ?email ;
+          schema:telephone ?phone ;
+          schema:sameAs ?linkedin ;
+          schema:address ?addr .
+
+  ?addr schema:addressLocality ?city ;
+        schema:addressRegion ?region ;
+        schema:addressCountry ?country .
+}

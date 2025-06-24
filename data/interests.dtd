@@ -1,0 +1,10 @@
+<!ELEMENT interests (person, interest+)>
+<!ELEMENT person (name, jobTitle, knowsAbout, knowsLanguage+)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT jobTitle (#PCDATA)>
+<!ELEMENT knowsAbout (#PCDATA)>
+<!ELEMENT knowsLanguage (#PCDATA)>
+<!ELEMENT interest (icon, title, description)>
+<!ELEMENT icon (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT description (#PCDATA)>

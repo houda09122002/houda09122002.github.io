@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr" prefix="schema: https://schema.org/">
+<head vocab="https://schema.org/" typeof="schema:WebPage">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="schema:description" content="Contact Houda Khiati" />
+  <title data-id="contact_title" property="schema:name">Contact | Houda Khiati</title>
+
+  <link rel="alternate" hreflang="fr" href="?lang=fr" />
+  <link rel="alternate" hreflang="en" href="?lang=en" />
+  <link rel="alternate" hreflang="ar" href="?lang=ar" />
+
+  <link rel="meta" type="application/rdf+xml" href="data/contact.rdf" />
+  <link rel="alternate" type="text/turtle" href="data/contact.ttl" />
+  <link rel="alternate" type="application/sparql-query" href="data/contact.sparql" title="SPARQL query on contact" />
+
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+  <script defer src="assets/langController.js"></script>
+</head>
+<body>
+  <div class="lang-switcher">
+    <a href="?lang=fr">🇫🇷</a>
+    <a href="?lang=en">🇬🇧</a>
+    <a href="?lang=ar">🇲🇦</a>
+  </div>
+
+  <header class="hero" data-aos="fade-down">
+    <span class="icon">📫</span>
+    <h1 class="hero-title" data-id="contact_title"></h1>
+    <p class="hero-tagline" data-id="contact_tagline"></p>
+  </header>
+
+  <main class="cards-container">
+    <div class="card" data-aos="zoom-in" data-aos-delay="0">
+      <span class="icon">📧</span>
+      <h3 data-id="contact_email_title"></h3>
+      <p><a href="mailto:houdakhiati97@gmail.com" data-id="contact_email">houdakht.dev@gmail.com</a></p>
+    </div>
+
+    <div class="card" data-aos="zoom-in" data-aos-delay="100">
+      <span class="icon">📍</span>
+      <h3 data-id="contact_location_title"></h3>
+      <p data-id="contact_location">Asnières-sur-Seine, Île-de-France, France</p>
+    </div>
+
+    <div class="card" data-aos="zoom-in" data-aos-delay="200">
+      <span class="icon">🔗</span>
+      <h3 data-id="contact_linkedin_title"></h3>
+      <p><a href="https://www.linkedin.com/in/houda-khiati-725549232/" target="_blank">houda-khiati</a></p>
+    </div>
+
+    <div class="card" data-aos="zoom-in" data-aos-delay="300">
+      <span class="icon">📱</span>
+      <h3 data-id="contact_phone_title"></h3>
+      <p data-id="contact_phone">+33 6 02 56 08 00</p>
+    </div>
+  </main>
+
+  <div class="back-button-container" data-aos="fade-up">
+    <a href="index.html" class="back-button" data-id="back_button"></a>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Houda Khiati</p>
+  </footer>
+
+  <div typeof="schema:Person" style="display:none">
+    <span property="schema:name">Houda Khiati</span>
+    <span property="schema:jobTitle">Développeuse full stack</span>
+    <span property="schema:email">houdakht.dev@gmail.com</span>
+    <span property="schema:telephone">+33 6 02 56 08 00</span>
+    <span property="schema:knowsLanguage">français</span>
+    <span property="schema:knowsLanguage">anglais</span>
+    <span property="schema:knowsLanguage">arabe</span>
+    <a property="schema:sameAs" href="https://www.linkedin.com/in/houda-khiati-725549232/" style="display:none;">LinkedIn</a>
+    <div property="schema:address" typeof="schema:PostalAddress">
+      <span property="schema:addressLocality">Asnières-sur-Seine</span>
+      <span property="schema:addressRegion">Île-de-France</span>
+      <span property="schema:addressCountry">FR</span>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script type="text/javascript">
+    /* <![CDATA[ */
+      AOS.init({
+        duration: 800,
+        once: true
+      });
+    /* ]]> */
+    </script>
+    
+</body>
+</html>

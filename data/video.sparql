@@ -1,0 +1,12 @@
+PREFIX schema: <https://schema.org/>
+
+SELECT ?title ?description ?date ?lang ?author ?videoUrl
+WHERE {
+  ?video a schema:VideoObject ;
+         schema:name ?title ;
+         schema:description ?description ;
+         schema:uploadDate ?date ;
+         schema:inLanguage ?lang ;
+         schema:author/schema:name ?author ;
+         schema:contentUrl ?videoUrl .
+}

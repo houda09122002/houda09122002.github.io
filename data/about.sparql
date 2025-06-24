@@ -1,0 +1,12 @@
+PREFIX schema: <https://schema.org/>
+
+SELECT ?name ?jobTitle ?description ?school
+WHERE {
+  ?person a schema:Person ;
+          schema:name ?name ;
+          schema:jobTitle ?jobTitle ;
+          schema:description ?description ;
+          schema:alumniOf ?edu .
+
+  ?edu schema:name ?school .
+}

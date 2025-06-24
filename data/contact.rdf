@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:schema="https://schema.org/">
+
+  <schema:Person rdf:about="https://houdakhiati.dev/contact#HoudaKhiati">
+    <schema:name>Houda Khiati</schema:name>
+    <schema:jobTitle>Développeuse full stack</schema:jobTitle>
+    <schema:email>houdakht.dev@gmail.com</schema:email>
+    <schema:telephone>+33 6 02 56 08 00</schema:telephone>
+    <schema:sameAs rdf:resource="https://www.linkedin.com/in/houda-khiati-725549232/" />
+    <schema:knowsLanguage>français</schema:knowsLanguage>
+    <schema:knowsLanguage>anglais</schema:knowsLanguage>
+    <schema:knowsLanguage>arabe</schema:knowsLanguage>
+    <schema:address>
+      <schema:PostalAddress>
+        <schema:addressLocality>Asnières-sur-Seine</schema:addressLocality>
+        <schema:addressRegion>Île-de-France</schema:addressRegion>
+        <schema:addressCountry>FR</schema:addressCountry>
+      </schema:PostalAddress>
+    </schema:address>
+  </schema:Person>
+
+</rdf:RDF>

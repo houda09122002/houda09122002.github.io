@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE interests SYSTEM "interests.dtd">
+<interests>
+  <person>
+    <name>Houda Khiati</name>
+    <jobTitle>Développeuse full stack</jobTitle>
+    <knowsAbout>Développement Web</knowsAbout>
+    <knowsLanguage>français</knowsLanguage>
+    <knowsLanguage>anglais</knowsLanguage>
+    <knowsLanguage>arabe</knowsLanguage>
+  </person>
+  <interest>
+    <icon>🎬</icon>
+    <title>Cinéma</title>
+    <description>J’adore regarder des films et analyser leur mise en scène.</description>
+  </interest>
+  <interest>
+    <icon>🍳</icon>
+    <title>Cuisine</title>
+    <description>Je cuisine souvent des plats marocains et invente des recettes.</description>
+  </interest>
+  <interest>
+    <icon>🎒</icon>
+    <title>Voyages</title>
+    <description>J’aime explorer de nouveaux pays et découvrir d’autres cultures.</description>
+  </interest>
+  <interest>
+    <icon>🏸</icon>
+    <title>Badminton</title>
+    <description>Je pratique le badminton pour le plaisir et rester en forme.</description>
+  </interest>
+  <interest>
+    <icon>🤝</icon>
+    <title>Volontariat</title>
+    <description>Je participe à des actions solidaires dès que possible.</description>
+  </interest>
+</interests>

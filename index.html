@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr"
+  prefix="schema: https://schema.org/ dc: http://purl.org/dc/elements/1.1/ foaf: http://xmlns.com/foaf/0.1/"
+  typeof="schema:WebPage foaf:Document">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio multilingue de Houda Khiati – Développeuse full stack" />
+  <meta http-equiv="Content-Language" content="fr" />
+
+  <title property="dc:title">Houda Khiati – Portfolio</title> <!-- Annotation DC -->
+  <meta property="dc:creator" content="Houda Khiati" />
+  <meta property="dc:language" content="fr" />
+  <meta property="dc:date" content="2025-06-21" />
+
+  <link rel="alternate" hreflang="fr" href="?lang=fr" />
+  <link rel="alternate" hreflang="en" href="?lang=en" />
+  <link rel="alternate" hreflang="ar" href="?lang=ar" />
+
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+
+  <meta property="schema:name" content="Houda Khiati – Portfolio" />
+  <meta property="schema:inLanguage" content="fr" />
+  <meta property="schema:description" content="Portfolio multilingue de Houda Khiati – Développeuse full stack" />
+  <meta property="schema:author" content="Houda Khiati" />
+  <meta property="schema:dateModified" content="2025-06-21" />
+
+  <link rel="meta" type="application/rdf+xml" title="RDF metadata" href="data/index.rdf" />
+  <link rel="alternate" type="text/turtle" href="data/index.ttl" />
+  <link rel="alternate" type="application/sparql-query" href="data/index.sparql" title="SPARQL query on index" />
+
+  <script type="text/javascript" src="assets/langDetector.js"></script>
+  <script type="text/javascript" src="assets/langController.js"></script>
+  <script type="text/javascript">
+  /* <![CDATA[ */
+    document.addEventListener("DOMContentLoaded", function() {
+      var lang = (new URLSearchParams(window.location.search).get("lang") || sessionStorage.getItem("lang") || navigator.language.slice(0,2)) || "fr";
+      var validLang = ["fr", "en", "ar"].includes(lang) ? lang : "fr";
+      var tipsData = {
+        fr: ["✨ Clique sur une carte pour en savoir plus !", "🎀 Change la langue avec les petits drapeaux.", "🚀 Regarde mes projets de 2024 !"],
+        en: ["✨ Click on a card to explore!", "🎀 Switch language from top right.", "🚀 Check out my 2024 projects!"],
+        ar: ["\u2728 \u0627\u0646\u0642\u0631 \u0639\u0644\u0649 \u0628\u0637\u0627\u0642\u0629 \u0644\u0627\u0633\u062a\u0643\u0634\u0627\u0641 \u0627\u0644\u0645\u0632\u064a\u062f!", "🎀 \u063a\u064a\u0631\u064a \u0627\u0644\u0644\u063a\u0629 \u0645\u0646 \u0627\u0644\u0623\u0639\u0644\u0649.", "🚀 \u0627\u0643\u062a\u0634\u0641\u064a \u0645\u0634\u0627\u0631\u064a\u0639\u064a \u0644\u0639\u0627\u0645 2024!"]
+      };
+      var tips = tipsData[validLang];
+      var tipElement = document.getElementById("mascotte-tip");
+      var tipIndex = 0;
+
+      function showTip() {
+        tipElement.style.opacity = 0;
+        setTimeout(function() {
+          tipElement.textContent = tips[tipIndex];
+          tipElement.style.opacity = 1;
+          tipIndex = (tipIndex + 1) % tips.length;
+        }, 300);
+      }
+
+      showTip();
+      setInterval(showTip, 4000);
+
+      try {
+        fetch("data/content.json")
+          .then(response => response.json())
+          .then(data => {
+            var messages = (data.currently_messages[validLang] || data.currently_messages["fr"]).slice();
+            var idx = 0;
+            var txtEl = document.getElementById("currently-text");
+            function showMsg() {
+              txtEl.style.opacity = 0;
+              setTimeout(function() {
+                txtEl.textContent = messages[idx];
+                txtEl.style.opacity = 1;
+              }, 300);
+              idx = (idx + 1) % messages.length;
+            }
+            showMsg();
+            setInterval(showMsg, 3000);
+          });
+      } catch(e) {
+        console.error("Erreur chargement currently_messages:", e);
+      }
+    });
+  /* ]]> */
+  </script>
+</head>
+<body typeof="foaf:Document" about="#me" property="dc:creator" content="Houda Khiati">
+  <div class="lang-switcher" data-aos="fade-down">
+    <a href="?lang=fr">🇫🇷</a>
+    <a href="?lang=en">🇬🇧</a>
+    <a href="?lang=ar">🇲🇦</a>
+  </div>
+
+  <header class="hero" data-aos="fade-up">
+    <img src="assets/images/bitmoji.png" alt="Houda Khiati" class="avatar" data-aos="zoom-in">
+    <h1 class="hero-title" data-id="home_welcome" property="dc:title"></h1>
+    <p class="hero-tagline" data-id="about_description" property="dc:description"></p>
+  </header>
+
+  <div class="mascotte-container">
+    <div class="mascotte-character">🦄</div>
+    <div class="mascotte-bubble" id="mascotte-tip">🌟 Bienvenue sur mon portfolio !</div>
+  </div>
+
+  <div typeof="foaf:Person" about="#me" vocab="http://xmlns.com/foaf/0.1/" style="display: none;">
+    <span property="foaf:name">Houda Khiati</span>
+    <span property="foaf:title">Développeuse full stack</span>
+    <span property="foaf:mbox" content="mailto:houdakht.dev@gmail.com"></span>
+    <span property="foaf:homepage" content="https://houda09122002.github.io/"></span>
+    <span property="foaf:knowsLanguage">français</span>
+    <span property="foaf:knowsLanguage">anglais</span>
+    <span property="foaf:knowsLanguage">arabe</span>
+  </div>
+  
+
+  <main class="cards-container">
+    <a class="card" href="about.html" data-aos="zoom-in-up">
+      <span class="icon">👩‍💼</span>
+      <span data-id="about_title"></span>
+    </a>
+    <a class="card" href="skills.html" data-aos="zoom-in-up" data-aos-delay="50">
+      <span class="icon">💻</span>
+      <span data-id="skills_title"></span>
+    </a>
+    <a class="card" href="experience.html" data-aos="zoom-in-up" data-aos-delay="100">
+      <span class="icon">🏢</span>
+      <span data-id="experience_title"></span>
+    </a>
+    <a class="card" href="projects.html" data-aos="zoom-in-up" data-aos-delay="150">
+      <span class="icon">🧠</span>
+      <span data-id="projects_title"></span>
+    </a>
+    <a class="card" href="education.html" data-aos="zoom-in-up" data-aos-delay="200">
+      <span class="icon">🎓</span>
+      <span data-id="education_title"></span>
+    </a>
+    <a class="card" href="interests.html" data-aos="zoom-in-up" data-aos-delay="250">
+      <span class="icon">🎀</span>
+      <span data-id="interests_title"></span>
+    </a>
+    <a class="card" href="contact.html" data-aos="zoom-in-up" data-aos-delay="300">
+      <span class="icon">📫</span>
+      <span data-id="contact_title"></span>
+    </a>
+    <a class="card" href="video.html" data-aos="zoom-in-up" data-aos-delay="350">
+      <span class="icon">🎬</span>
+      <span data-id="video_title"></span>
+    </a>
+  </main>
+
+  <footer data-aos="fade-up" data-aos-delay="400">
+    <section class="currently-section" data-aos="fade-up" data-aos-delay="300">
+      <h2 class="currently-title" data-id="currently_title"></h2>
+      <p id="currently-text"></p>
+    </section>
+    <p>&copy; <span property="dc:creator">Houda Khiati</span> – 2025</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 800, once: true });
+  </script>
+</body>
+</html>

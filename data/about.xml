@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE about SYSTEM "about.dtd">
+<about>
+  <personName>Houda Khiati</personName>
+  <jobTitle>Développeuse full stack</jobTitle>
+  <description>Étudiante ingénieure passionnée par le développement web et les technos innovantes.</description>
+  <knowsLanguage>français</knowsLanguage>
+  <knowsLanguage>anglais</knowsLanguage>
+  <knowsLanguage>arabe</knowsLanguage>
+  <alumniOf>
+    <universityName>Institut Galilée – Université Sorbonne Paris Nord</universityName>
+  </alumniOf>
+</about>

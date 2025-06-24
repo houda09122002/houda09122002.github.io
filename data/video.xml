@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE videoPage SYSTEM "video.dtd">
+<videoPage>
+  <header>
+    <title>Vidéo de présentation</title>
+    <description>Présentation multilingue de Houda Khiati</description>
+  </header>
+  <video>
+    <url>https://www.youtube.com/watch?v=yYJ0z5aeprU</url>
+    <embedUrl>https://www.youtube.com/embed/yYJ0z5aeprU</embedUrl>
+  </video>
+  <footer>
+    <author>Houda Khiati</author>
+    <date>2025-06-21</date>
+  </footer>
+</videoPage>

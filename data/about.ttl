@@ -1,0 +1,12 @@
+@prefix schema: <https://schema.org/> .
+@prefix : <https://houdakhiati.dev/about#> .
+
+:HoudaKhiati a schema:Person ;
+  schema:name "Houda Khiati" ;
+  schema:jobTitle "Développeuse full stack" ;
+  schema:description "Étudiante ingénieure passionnée par le développement web et les technos innovantes." ;
+  schema:knowsLanguage "français", "anglais", "arabe" ;
+  schema:alumniOf [
+    a schema:EducationalOrganization ;
+    schema:name "Institut Galilée – Université Sorbonne Paris Nord"
+  ] .

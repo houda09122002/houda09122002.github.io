@@ -1,0 +1,17 @@
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://houda09122002.github.io/> a schema:WebPage ;
+    schema:author <https://houda09122002.github.io/#houda> ;
+    schema:dateModified "2025-06-21"^^xsd:date ;
+    schema:description "Portfolio multilingue de Houda Khiati – Développeuse full stack" ;
+    schema:inLanguage "fr" ;
+    schema:name "Houda Khiati – Portfolio" .
+
+<https://houda09122002.github.io/#houda> a schema:Person ;
+    schema:name "Houda Khiati" ;
+    schema:jobTitle "Développeuse full stack" ;
+    schema:knowsAbout "Développement Web" ;
+    schema:knowsLanguage "français",
+                        "anglais",
+                        "arabe" .

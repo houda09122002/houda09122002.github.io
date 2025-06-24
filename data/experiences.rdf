@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:schema="https://schema.org/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+  <schema:WebPage rdf:about="https://portfolio.houda/experiences">
+    <schema:name xml:lang="fr">Page expériences professionnelles de Houda Khiati</schema:name>
+    <schema:author>Houda Khiati</schema:author>
+    <schema:inLanguage>fr</schema:inLanguage>
+    <schema:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-06-21</schema:dateModified>
+    <schema:description xml:lang="fr">Expériences professionnelles : Equativ, Lafarge Holcim, Marjane Holding</schema:description>
+  </schema:WebPage>
+
+  <schema:Organization rdf:about="https://portfolio.houda/experience/equativ">
+    <schema:name>Equativ</schema:name>
+    <schema:member rdf:resource="https://portfolio.houda/person/houda"/>
+    <schema:description xml:lang="fr">Alternance en tant que développeuse full stack chez Equativ.</schema:description>
+  </schema:Organization>
+
+  <schema:Organization rdf:about="https://portfolio.houda/experience/lafarge">
+    <schema:name>Lafarge Holcim</schema:name>
+    <schema:member rdf:resource="https://portfolio.houda/person/houda"/>
+    <schema:description xml:lang="fr">Stage sur le développement d'une application de gestion d’accès.</schema:description>
+  </schema:Organization>
+
+  <schema:Organization rdf:about="https://portfolio.houda/experience/marjane">
+    <schema:name>Marjane Holding</schema:name>
+    <schema:member rdf:resource="https://portfolio.houda/person/houda"/>
+    <schema:description xml:lang="fr">Stage sur l’analyse du comportement d’achat.</schema:description>
+  </schema:Organization>
+
+  <schema:Person rdf:about="https://portfolio.houda/person/houda">
+    <schema:name>Houda Khiati</schema:name>
+    <schema:jobTitle>Développeuse full stack</schema:jobTitle>
+    <schema:knowsLanguage>français</schema:knowsLanguage>
+    <schema:knowsLanguage>anglais</schema:knowsLanguage>
+    <schema:knowsLanguage>arabe</schema:knowsLanguage>
+  </schema:Person>
+</rdf:RDF>

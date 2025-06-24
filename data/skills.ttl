@@ -1,0 +1,14 @@
+@prefix schema: <https://schema.org/> .
+@prefix : <http://example.org/> .
+
+:houda a schema:Person ;
+  schema:name "Houda Khiati" ;
+  schema:jobTitle "Développeuse full stack" ;
+  schema:knowsLanguage "français", "anglais", "arabe" ;
+  schema:knowsAbout "Développement Web" .
+
+:skills a schema:WebPage ;
+  schema:name "Page compétences de Houda Khiati" ;
+  schema:inLanguage "fr" ;
+  schema:author :houda ;
+  schema:dateModified "2025-06-21" .

@@ -1,0 +1,13 @@
+PREFIX schema: <https://schema.org/>
+
+SELECT ?name ?job ?language ?description ?date
+WHERE {
+  ?person a schema:Person ;
+          schema:name ?name ;
+          schema:jobTitle ?job ;
+          schema:knowsLanguage ?language .
+  
+  ?page a schema:WebPage ;
+        schema:description ?description ;
+        schema:dateModified ?date .
+}

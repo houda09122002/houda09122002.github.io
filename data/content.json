@@ -1,0 +1,391 @@
+{
+  "home_welcome": {
+    "fr": "Bienvenue sur mon portfolio",
+    "en": "Welcome to my portfolio",
+    "ar": "مرحباً بكم في معرض أعمالي"
+  },
+  "about_title": {
+    "fr": "À propos de moi",
+    "en": "About Me",
+    "ar": "نبذة عني"
+  },
+    "about_description": {
+    "fr": "Je suis Houda, développeuse full stack en alternance chez Equativ, passionnée par le web moderne, l'expérience utilisateur et les projets à fort impact.",
+    "en": "I'm Houda, a full stack developer apprentice at Equativ, passionate about modern web, user experience and impactful projects.",
+    "ar": "أنا هدى، متدربة تطوير متكاملة في شركة Equativ، شغوفة بالويب الحديث وتجربة المستخدم والمشاريع المؤثرة."
+    },
+  "skills_title": {
+    "fr": "Compétences",
+    "en": "Skills",
+    "ar": "المهارات"
+  },
+  "skills_list": {
+    "fr": "Java, Python, C#, HTML5, CSS3, JavaScript, Angular, React, Node.js, SQL, MongoDB, UML, Merise...",
+    "en": "Java, Python, C#, HTML5, CSS3, JavaScript, Angular, React, Node.js, SQL, MongoDB, UML, Merise...",
+    "ar": "جافا، بايثون، C#، HTML5، CSS3، جافا سكريبت، أنجولار، رياكت، نود.جي إس، قواعد بيانات، UML، ميريز..."
+  },
+  "experience_title": {
+    "fr": "Expériences",
+    "en": "Experience",
+    "ar": "الخبرات"
+  },
+  "experience_equativ": {
+    "fr": "Equativ (2024-2025) - Alternance développeuse full stack",
+    "en": "Equativ (2024-2025) - Full stack developer apprentice",
+    "ar": "Equativ (2024-2025) - متدربة مطورة Full Stack"
+  },
+    "experience_lafarge": {
+    "fr": "📍 <strong>Lieu :</strong> Ras El Ma – Fès, Maroc<br>🗓️ <strong>Durée :</strong> 2 mois (01 juin – 31 juillet 2023)<br><br>💡 <strong>Thème :</strong><br>Mise en place d'une application web de gestion des profils d'accès du personnel et suivi en temps réel d’un système de pointage à la tour de préchauffage.<br><br>🛠️ <strong>Technologies :</strong><br>Angular, TypeScript, HTML5, Sass, SpringBoot, Python, MySQL",
+
+    "en": "📍 <strong>Location:</strong> Ras El Ma – Fès, Morocco<br>🗓️ <strong>Duration:</strong> 2 months (June 1 – July 31, 2023)<br><br>💡 <strong>Topic:</strong><br>Development of a web application for managing staff access profiles and real-time tracking of a time-punching system at the preheating tower.<br><br>🛠️ <strong>Technologies:</strong><br>Angular, TypeScript, HTML5, Sass, SpringBoot, Python, MySQL",
+
+    "ar": "📍 <strong>المكان:</strong> رأس الماء – فاس، المغرب<br>🗓️ <strong>المدة:</strong> شهران (من 1 يونيو إلى 31 يوليوز 2023)<br><br>💡 <strong>الموضوع:</strong><br>إنشاء تطبيق ويب لتسيير صلاحيات الولوج للموظفين وتتبع نظام الحضور الزمني في برج التسخين المسبق.<br><br>🛠️ <strong>التقنيات:</strong><br>Angular، TypeScript، HTML5، Sass، SpringBoot، Python، MySQL"
+    },
+    "experience_marjane": {
+    "fr": "📍 <strong>Lieu :</strong> Fès, Maroc<br>🗓️ <strong>Durée :</strong> 1 mois (12 juillet – 11 août 2022)<br><br>💡 <strong>Thème :</strong><br>Analyse des comportements d’achat des clients pour :<br>• Évaluer l’efficacité de l’organisation des rayons<br>• Optimiser le parcours client dans l’hypermarché<br><br>🛠️ <strong>Technologies :</strong><br>R, Power BI",
+    "en": "📍 <strong>Location:</strong> Fès, Morocco<br>🗓️ <strong>Duration:</strong> 1 month (July 12 – August 11, 2022)<br><br>💡 <strong>Topic:</strong><br>Customer behavior analysis to:<br>• Evaluate shelf organization efficiency<br>• Optimize customer journey in the hypermarket<br><br>🛠️ <strong>Technologies:</strong><br>R, Power BI",
+    "ar": "📍 <strong>المكان:</strong> فاس، المغرب<br>🗓️ <strong>المدة:</strong> شهر واحد (من 12 يوليو إلى 11 غشت 2022)<br><br>💡 <strong>الموضوع:</strong><br>تحليل سلوكيات شراء الزبائن بهدف:<br>• تقييم فعالية تنظيم الأرفف<br>• تحسين تجربة الزبون داخل المتجر الكبير<br><br>🛠️ <strong>التقنيات:</strong><br>لغة R، Power BI"
+    }
+,
+  "projects_title": {
+    "fr": "Projets",
+    "en": "Projects",
+    "ar": "المشاريع"
+  },
+"projects_tagline": {
+    "fr": "🧩 Quelques projets personnels, académiques et professionnels réalisés avec passion.",
+    "en": "🧩 A few personal, academic and professional projects completed with passion.",
+    "ar": "🧩 بعض المشاريع الشخصية والأكاديمية والمهنية المنجزة بشغف."
+  },
+"projects_2024": {
+  "fr": "<br><br>🧬 Modélisation et Simulation d'Automates Cellulaires (Java, Swing)<br><br>💬 Application de Messagerie Client-Serveur (C)<br><br>🎮 Jeu Puissance 4 avec IA (C)",
+  "en": "<br><br>🧬 Modeling and Simulation of Cellular Automata (Java, Swing)<br><br>💬 Client-Server Messaging App (C)<br><br>🎮 Connect 4 Game with AI (C)",
+  "ar": "<br><br>🧬 نمذجة ومحاكاة الخلايا التلقائية (جافا، سوينغ)<br><br>💬 تطبيق رسائل زبون/خادم (سي)<br><br>🎮 لعبة القوة 4 بالذكاء الاصطناعي (سي)"
+},
+"projects_2023": {
+  "fr": "<br><br>❤️ Projet de prédiction des maladies cardiaques (React, HTML5, CSS3, Python, R, Oracle)<br><br>🚢 Jeu bataille navale multijoueur (Java, Swing, Socket)<br><br>🗂️ Gestionnaire de fichiers (Python, Flask, HTML5, CSS3, JS, Linux)<br><br>🧪 Analyse Intima-Media (R)<br><br>📐 Décomposition LU (Maple)<br><br>📚 Gestion bibliothèque (C#)",
+  "en": "<br><br>❤️ Heart disease prediction system (React, HTML5, CSS3, Python, R, Oracle)<br><br>🚢 Multiplayer battleship game (Java, Swing, Socket)<br><br>🗂️ File manager (Python, Flask, HTML5, CSS3, JS, Linux)<br><br>🧪 Intima-Media analysis (R)<br><br>📐 LU decomposition (Maple)<br><br>📚 Library management (C#)",
+  "ar": "<br><br>❤️ نظام توقع أمراض القلب (React، HTML5، CSS3، Python، R، Oracle)<br><br>🚢 لعبة بحرية متعددة اللاعبين (Java، Swing، Socket)<br><br>🗂️ مدير ملفات (Python، Flask، HTML5، CSS3، JS، Linux)<br><br>🧪 تحليل الإنيتيما ميديا (R)<br><br>📐 تفكيك LU (Maple)<br><br>📚 إدارة المكتبة (C#)"
+},
+"projects_2022": {
+  "fr": "<br><br>♟️ Jeu d'échecs avec IA (C++, Qt)<br><br>🖥️ Système d'exploitation multitâche (C++, Qt)<br><br>🎬 Gestion de films (VB.Net, MySQL)",
+  "en": "<br><br>♟️ Chess game with AI (C++, Qt)<br><br>🖥️ Multitasking OS (C++, Qt)<br><br>🎬 Movie management (VB.Net, MySQL)",
+  "ar": "<br><br>♟️ لعبة شطرنج بالذكاء الاصطناعي (C++، Qt)<br><br>🖥️ نظام تشغيل متعدد المهام (C++، Qt)<br><br>🎬 نظام إدارة الأفلام (VB.Net، MySQL)"
+},
+  "contact_title": {
+    "fr": "Contact",
+    "en": "Contact",
+    "ar": "تواصل معي"
+  },
+    "about_dev_title": {
+    "fr": "Développeuse full stack",
+    "en": "Full Stack Developer",
+    "ar": "مطورة Full Stack"
+  },
+  "about_dev_text": {
+    "fr": "Actuellement en alternance chez Equativ, j'interviens sur le développement complet d'applications web.",
+    "en": "Currently doing a work-study at Equativ, I handle full-stack web app development.",
+    "ar": "أتدرب حالياً في شركة Equativ وأعمل على تطوير تطبيقات الويب بشكل كامل."
+  },
+  "about_study_title": {
+    "fr": "Formation d'ingénieure",
+    "en": "Engineering Studies",
+    "ar": "الدراسة الهندسية"
+  },
+  "about_study_text": {
+    "fr": "Étudiante à Sup Galilée , je me spécialise en informatique avec une approche pratique et orientée projet.",
+    "en": "Student at Sup Galilée , I specialize in computer science with a project-oriented and practical approach.",
+    "ar": "طالبة في Sup Galilée ، أتخصص في علوم الحاسوب بمنهج عملي وموجه نحو المشاريع."
+  },
+  "about_lang_title": {
+    "fr": "Trilingue",
+    "en": "Trilingual",
+    "ar": "أتحدث ثلاث لغات"
+  },
+  "about_lang_text": {
+    "fr": "Je parle arabe (langue maternelle), français (DALF C1) et anglais (TOEIC).",
+    "en": "I speak Arabic (native), French (DALF C1), and English (TOEIC).",
+    "ar": "أتحدث العربية (اللغة الأم)، والفرنسية (DALF C1)، والإنجليزية (TOEIC)."
+  },
+  "about_goals_title": {
+    "fr": "Mes objectifs",
+    "en": "My Goals",
+    "ar": "أهدافي"
+  },
+  "about_goals_text": {
+    "fr": "Allier expertise technique, design moderne et accessibilité. Mon ambition est de contribuer à des projets à fort impact technologique et humain.",
+    "en": "Combine technical expertise, modern design, and accessibility. My ambition is to contribute to projects with strong technological and human impact.",
+    "ar": "الجمع بين الخبرة التقنية والتصميم العصري وسهولة الوصول. طموحي هو المساهمة في مشاريع ذات تأثير تكنولوجي وإنساني قوي."
+  },
+  "back_button": {
+    "fr": "⬅ Retour à l’accueil",
+    "en": "⬅ Back to Home",
+    "ar": "⬅ العودة إلى الصفحة الرئيسية"
+  },
+    "skills_tagline": {
+    "fr": "🌟 Voici un aperçu de mes compétences techniques et des outils que j'utilise au quotidien.",
+    "en": "🌟 A glimpse of my technical skills and the tools I use every day.",
+    "ar": "🌟 لمحة عن مهاراتي التقنية والأدوات التي أستخدمها يوميًا."
+  },
+
+  "skills_front_title": {
+    "fr": "Frontend",
+    "en": "Frontend",
+    "ar": "الواجهة الأمامية"
+  },
+"skills_front_text": {
+  "fr": "HTML5<br>CSS3<br>JavaScript<br>React<br>Angular<br>TypeScript",
+  "en": "HTML5<br>CSS3<br>JavaScript<br>React<br>Angular<br>TypeScript",
+  "ar": "HTML5<br>CSS3<br>جافا سكريبت<br>ريأكت<br>أنغولار<br>تايب سكريبت"
+}
+,
+
+  "skills_back_title": {
+    "fr": "Backend",
+    "en": "Backend",
+    "ar": "الواجهة الخلفية"
+  },
+    "skills_back_text": {
+    "fr": "Node.js<br>SpringBoot<br>Flask<br>PHP",
+    "en": "Node.js<br>SpringBoot<br>Flask<br>PHP",
+    "ar": "نود.جي إس<br>سبرينغ بوت<br>فلاسْك<br>بي إتش بي"
+    },
+
+  "skills_data_title": {
+    "fr": "Data / BI",
+    "en": "Data / BI",
+    "ar": "البيانات / ذكاء الأعمال"
+  },
+    "skills_data_text": {
+    "fr": "Recherche opérationnelle<br>Analyse de données<br>Power BI<br>R",
+    "en": "Operations research<br>Data analysis<br>Power BI<br>R",
+    "ar": "بحوث العمليات<br>تحليل البيانات<br>Power BI<br>لغة R"
+    },
+  "skills_tools_title": {
+    "fr": "Outils",
+    "en": "Tools",
+    "ar": "الأدوات"
+  },
+    "skills_tools_text": {
+    "fr": "Eclipse<br>IntelliJ IDEA<br>Dev C++<br>Anaconda<br>Microsoft Visual Studio<br>RStudio<br>Matlab<br>Maple<br>Tanagra<br>Arduino<br>Power AMC<br>Enterprise Architect",
+    "en": "Eclipse<br>IntelliJ IDEA<br>Dev C++<br>Anaconda<br>Microsoft Visual Studio<br>RStudio<br>Matlab<br>Maple<br>Tanagra<br>Arduino<br>Power AMC<br>Enterprise Architect",
+    "ar": "إكليبس<br>إنتيليج آيديا<br>ديف سي++<br>أنّاكوندا<br>مايكروسوفت فيجوال ستوديو<br>آر ستوديو<br>ماتلاب<br>مابل<br>تاناغرا<br>أردوينو<br>باور إيه إم سي<br>إنتربرايز آركيتكت"
+    },
+    "skills_langs_title": {
+    "fr": "Langages de programmation",
+    "en": "Programming Languages",
+    "ar": "لغات البرمجة"
+    },
+    "skills_langs_text": {
+    "fr": "Java<br>C#<br>C/C++<br>Python",
+    "en": "Java<br>C#<br>C/C++<br>Python",
+    "ar": "جافا<br>سي شارب<br>سي/سي++<br>بايثون"
+    },
+    "skills_db_title": {
+    "fr": "Base de données",
+    "en": "Databases",
+    "ar": "قواعد البيانات"
+    },
+    "skills_db_text": {
+    "fr": "MySQL<br>SQL Server<br>MongoDB<br>Oracle",
+    "en": "MySQL<br>SQL Server<br>MongoDB<br>Oracle",
+    "ar": "ماي إس كيو إل<br>إس كيو إل سيرفر<br>مونغو دي بي<br>أوراكل"
+    },
+    "experience_tagline": {
+    "fr": "📂 Voici mes principales expériences professionnelles, en alternance et en stage.",
+    "en": "📂 Here are my main professional experiences, in work-study and internships.",
+    "ar": "📂 هذه أهم خبراتي المهنية، سواء في التدريب أو في التناوب الدراسي."
+    },
+
+  "education_title": {
+    "fr": "Formations",
+    "en": "Education",
+    "ar": "التكوينات"
+  },
+  "education_tagline": {
+    "fr": "🎓 Mon parcours académique entre rigueur scientifique et passion pour l'informatique.",
+    "en": "🎓 My academic journey between scientific rigor and a passion for computer science.",
+    "ar": "🎓 مسيرتي الأكاديمية بين الصرامة العلمية والشغف بالمعلوماتية."
+  },
+  
+"education_engineering_title": {
+  "fr": "👩‍🎓 2023 – 2026<br><strong>Cycle Ingénieur – Sup Galilée</strong>",
+  "en": "👩‍🎓 2023 – 2026<br><strong>Engineering Program – Sup Galilée</strong>",
+  "ar": "👩‍🎓 2023 – 2026<br><strong>دورة الهندسة – سوب غاليلي</strong>"
+},
+  "education_engineering_desc": {
+    "fr": "Spécialité informatique – Université sorbonne paris Nord  (France)",
+    "en": "Computer Science Major – University Sorbonne Paris Nord (France)",
+    "ar": "تخصص الإعلاميات – جامعة باريس  (فرنسا)"
+  },
+
+  "education_bachelor_title": {
+    "fr": "🎓 2021 – 2023 <br> Licence en ingénierie logicielle",
+    "en": "🎓 2021 – 2023 <br> Bachelor's in Software Engineering",
+    "ar": "🎓 2021 – 2023 <br> إجازة في هندسة البرمجيات"
+  },
+  "education_bachelor_desc": {
+    "fr": "École Supérieure d'Ingénierie en Sciences Appliquées (Maroc)<br>Mention : Très Bien",
+    "en": "School of Engineering in Applied Sciences (Morocco)<br>Grade: High Distinction",
+    "ar": "المدرسة العليا للهندسة في العلوم التطبيقية (المغرب)<br>ميزة: حسن جداً"
+  },
+
+  "education_bac_title": {
+    "fr": "🏫 2020 <br> Baccalauréat scientifique – Physique",
+    "en": "🏫 2020 <br> Scientific Baccalaureate – Physics",
+    "ar": "🏫 2020 <br> البكالوريا العلمية – شعبة الفيزياء"
+  },
+  "education_bac_desc": {
+    "fr": "Lycée Taïba – Option française<br>Mention : Très Bien",
+    "en": "Taïba High School – French Track<br>Grade: High Distinction",
+    "ar": "ثانوية طيبة – خيار فرنسي<br>ميزة: حسن جداً"
+  },
+
+  "education_certifications": {
+    "fr": "<br>📜 <strong>Certifications</strong><br>🧠 CCNA 1 – Introduction aux réseaux (Cisco) – 2023<br>💻 NDG Linux Essentials – Cisco – 2022",
+    "en": "<br>📜 <strong>Certifications</strong><br>🧠 CCNA 1 – Introduction to Networks (Cisco) – 2023<br>💻 NDG Linux Essentials – Cisco – 2022",
+    "ar": "<br>📜 <strong>الشهادات</strong><br>🧠 CCNA 1 – مقدمة في الشبكات (Cisco) – 2023<br>💻 أساسيات Linux – Cisco – 2022"
+  },
+  "interests_title": {
+    "fr": "Centres d'intérêt",
+    "en": "Interests",
+    "ar": "الهوايات والاهتمامات"
+  },
+  "interests_tagline": {
+    "fr": "🌈 Voici quelques-unes de mes passions et loisirs préférés, en dehors du code !",
+    "en": "🌈 Here are some of my favorite passions and hobbies beyond coding!",
+    "ar": "🌈 إليك بعض هواياتي المفضلة وأنشطتي خارج عالم البرمجة!"
+  },
+  "interest_cinema_title": {
+    "fr": "Cinéma & séries",
+    "en": "Cinema & Series",
+    "ar": "السينما والمسلسلات"
+  },
+  "interest_cinema_desc": {
+    "fr": "J’aime découvrir des histoires inspirantes à travers le cinéma, particulièrement les thrillers, les drames et les productions marocaines.",
+    "en": "I love exploring inspiring stories through cinema, especially thrillers, dramas, and Moroccan productions.",
+    "ar": "أحب استكشاف القصص الملهمة من خلال السينما، خاصة أفلام الإثارة والدراما والإنتاجات المغربية."
+  },
+  "interest_cooking_title": {
+    "fr": "Cuisine",
+    "en": "Cooking",
+    "ar": "الطبخ"
+  },
+  "interest_cooking_desc": {
+    "fr": "J'adore expérimenter des recettes sucrées comme les gâteaux marocains et partager de bons repas faits maison !",
+    "en": "I enjoy experimenting with sweet recipes like Moroccan pastries and sharing homemade meals!",
+    "ar": "أستمتع بتجربة وصفات حلوة مثل الحلويات المغربية ومشاركة وجبات منزلية لذيذة!"
+  },
+  "interest_travel_title": {
+    "fr": "Voyage & camping",
+    "en": "Travel & Camping",
+    "ar": "السفر والتخييم"
+  },
+  "interest_travel_desc": {
+    "fr": "Je participe à des sorties nature avec l'OMSG Adarissa. Respirer l’air frais en groupe est l’une de mes activités préférées.",
+    "en": "I take part in nature outings with OMSG Adarissa. Breathing fresh air in a group is one of my favorite activities.",
+    "ar": "أشارك في خرجات طبيعية مع مجموعة أومسج أدارسة. أستمتع بالهواء النقي والنشاط الجماعي."
+  },
+  "interest_badminton_title": {
+    "fr": "Badminton",
+    "en": "Badminton",
+    "ar": "البادمنتون"
+  },
+  "interest_badminton_desc": {
+    "fr": "Ce sport me permet de me défouler tout en restant concentrée. J'aime les matchs entre amis pour me challenger.",
+    "en": "This sport helps me let off steam while staying focused. I love playing matches with friends to challenge myself.",
+    "ar": "يساعدني هذا الرياضة على تفريغ الطاقة مع الحفاظ على التركيز. أحب خوض المباريات مع الأصدقاء للتحدي."
+  },
+  "interest_volunteering_title": {
+    "fr": "Engagement associatif",
+    "en": "Community Involvement",
+    "ar": "العمل التطوعي"
+  },
+  "interest_volunteering_desc": {
+    "fr": "Ex-membre de l'association Uranus : collecte de dons pour construire un puits dans le village El Maaziz (Maroc).",
+    "en": "Former member of the Uranus association: fundraising to build a well in El Maaziz village (Morocco).",
+    "ar": "عضوة سابقة في جمعية أورانوس: جمع التبرعات لبناء بئر في قرية المعازيز (المغرب)."
+  },
+  "contact_tagline": {
+    "fr": "📬 Vous souhaitez me contacter ? Voici comment me joindre !",
+    "en": "📬 Want to get in touch? Here's how to reach me!",
+    "ar": "📬 تريد التواصل معي؟ إليك كيف تصل إلي!"
+  },
+  "contact_email_title": {
+    "fr": "Email",
+    "en": "Email",
+    "ar": "البريد الإلكتروني"
+  },
+  "contact_location_title": {
+    "fr": "Localisation",
+    "en": "Location",
+    "ar": "الموقع"
+  },
+  "contact_linkedin_title": {
+    "fr": "LinkedIn",
+    "en": "LinkedIn",
+    "ar": "لينكد إن"
+  },
+  "contact_phone_title": {
+    "fr": "Téléphone",
+    "en": "Phone",
+    "ar": "الهاتف"
+  },
+  "contact_email": {
+    "fr": "houdakhiati97@gmail.com",
+    "en": "houdakhiati97@gmail.com",
+    "ar": "houdakhiati97@gmail.com"
+  },
+  "contact_location": {
+    "fr": "Asnières-sur-Seine, Île-de-France, France",
+    "en": "Asnières-sur-Seine, Île-de-France, France",
+    "ar": "آنيير سور سين، إيل دو فرانس، فرنسا"
+  },
+  "contact_phone": {
+    "fr": "+33 6 02 56 08 00",
+    "en": "+33 6 02 56 08 00",
+    "ar": "+33 6 02 56 08 00"
+  },
+  
+
+  "currently_title": {
+    "fr": "💡 En ce moment je...",
+    "en": "💡 Right now I...",
+    "ar": "💡 حالياً أنا..."
+  },
+
+  "currently_messages": {
+    "fr": [
+      "💻 Je travaille chez Equativ",
+      "📚 Je prépare mon diplôme d’ingénieur",
+      "🚀 Je développe un projet perso en React"
+    ],
+    "en": [
+      "💻 I work at Equativ",
+      "📚 I'm working on my engineering degree",
+      "🚀 I'm building a personal React project"
+    ],
+    "ar": [
+      "💻 أعمل في Equativ",
+      "📚 أُحضّر لشهادة الهندسة",
+      "🚀 أطور مشروع React شخصي"
+    ]
+  },
+  "video_title": {
+  "fr": "Vidéo de présentation",
+  "en": "Introductory video",
+  "ar": "فيديو تقديمي"
+},
+"video_desc": {
+  "fr": "Une courte vidéo où je présente mon parcours et mes projets.",
+  "en": "A short video where I present my background and projects.",
+  "ar": "فيديو قصير أقدم فيه مسيرتي ومشاريعي."
+}
+
+
+
+
+}
+
+
+

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<contact>
+  <name>Houda Khiati</name>
+  <jobTitle>Développeuse full stack</jobTitle>
+  <email>houdakht.dev@gmail.com</email>
+  <telephone>+33 6 02 56 08 00</telephone>
+  <knowsLanguage>français</knowsLanguage>
+  <knowsLanguage>anglais</knowsLanguage>
+  <knowsLanguage>arabe</knowsLanguage>
+  <sameAs>https://www.linkedin.com/in/houda-khiati-725549232/</sameAs>
+  <address>
+    <addressLocality>Asnières-sur-Seine</addressLocality>
+    <addressRegion>Île-de-France</addressRegion>
+    <addressCountry>FR</addressCountry>
+  </address>
+</contact>

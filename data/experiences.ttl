@@ -1,0 +1,28 @@
+@prefix schema: <https://schema.org/> .
+
+<https://portfolio.houda/experiences> a schema:WebPage ;
+  schema:name "Page expériences professionnelles de Houda Khiati"@fr ;
+  schema:author "Houda Khiati" ;
+  schema:inLanguage "fr" ;
+  schema:dateModified "2025-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
+  schema:description "Expériences professionnelles : Equativ, Lafarge Holcim, Marjane Holding"@fr .
+
+<https://portfolio.houda/experience/equativ> a schema:Organization ;
+  schema:name "Equativ" ;
+  schema:member <https://portfolio.houda/person/houda> ;
+  schema:description "Alternance en tant que développeuse full stack chez Equativ."@fr .
+
+<https://portfolio.houda/experience/lafarge> a schema:Organization ;
+  schema:name "Lafarge Holcim" ;
+  schema:member <https://portfolio.houda/person/houda> ;
+  schema:description "Stage sur le développement d'une application de gestion d’accès."@fr .
+
+<https://portfolio.houda/experience/marjane> a schema:Organization ;
+  schema:name "Marjane Holding" ;
+  schema:member <https://portfolio.houda/person/houda> ;
+  schema:description "Stage sur l’analyse du comportement d’achat."@fr .
+
+<https://portfolio.houda/person/houda> a schema:Person ;
+  schema:name "Houda Khiati" ;
+  schema:jobTitle "Développeuse full stack" ;
+  schema:knowsLanguage "français", "anglais", "arabe" .

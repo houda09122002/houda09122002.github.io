@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:schema="https://schema.org/"
+  xml:base="http://example.com/education">
+
+  <schema:Person rdf:about="#houda-khiati">
+    <schema:name>Houda Khiati</schema:name>
+    <schema:jobTitle>Développeuse full stack</schema:jobTitle>
+    <schema:knowsAbout>Développement Web</schema:knowsAbout>
+    <schema:knowsLanguage>français</schema:knowsLanguage>
+    <schema:knowsLanguage>anglais</schema:knowsLanguage>
+    <schema:knowsLanguage>arabe</schema:knowsLanguage>
+  </schema:Person>
+
+  <schema:EducationalOccupationalProgram rdf:about="#ingenieur">
+    <schema:name>Cycle Ingénieur</schema:name>
+    <schema:description>Études d’ingénierie à l’Institut Galilée, Université Sorbonne Paris Nord, spécialité informatique industrielle.</schema:description>
+    <schema:educationalLevel>Master</schema:educationalLevel>
+    <schema:provider rdf:resource="#houda-khiati"/>
+  </schema:EducationalOccupationalProgram>
+
+  <schema:EducationalOccupationalProgram rdf:about="#licence">
+    <schema:name>Licence Informatique</schema:name>
+    <schema:description>Université Sidi Mohamed Ben Abdellah à Fès. Formation fondamentale en algorithmique, systèmes, réseaux et développement logiciel.</schema:description>
+    <schema:educationalLevel>Licence</schema:educationalLevel>
+    <schema:provider rdf:resource="#houda-khiati"/>
+  </schema:EducationalOccupationalProgram>
+
+  <schema:EducationalOccupationalProgram rdf:about="#bac">
+    <schema:name>Baccalauréat Scientifique</schema:name>
+    <schema:description>Option Sciences Mathématiques B au Lycée Hassan II à Fès.</schema:description>
+    <schema:educationalLevel>Baccalauréat</schema:educationalLevel>
+    <schema:provider rdf:resource="#houda-khiati"/>
+  </schema:EducationalOccupationalProgram>
+
+</rdf:RDF>

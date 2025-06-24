@@ -1,0 +1,9 @@
+
+PREFIX schema: <https://schema.org/>
+
+SELECT ?titre ?description WHERE {
+  ?s a schema:Interest ;
+     schema:name ?titre ;
+     schema:description ?description .
+}
+ORDER BY ?titre

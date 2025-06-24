@@ -1,0 +1,27 @@
+# education.ttl
+@prefix schema: <https://schema.org/> .
+@prefix : <https://portfolio.example.org/education#> .
+
+:houda a schema:Person ;
+  schema:name "Houda Khiati" ;
+  schema:jobTitle "Développeuse full stack" ;
+  schema:knowsAbout "Développement Web" ;
+  schema:knowsLanguage "français", "anglais", "arabe" .
+
+:education1 a schema:EducationalOccupationalCredential ;
+  schema:educationalLevel "BAC+5" ;
+  schema:description "Diplôme d'ingénieure industrielle à Sup Galilée" ;
+  schema:dateCreated "2025" ;
+  schema:creator :houda .
+
+:education2 a schema:EducationalOccupationalCredential ;
+  schema:educationalLevel "Licence" ;
+  schema:description "Licence en mathématiques et informatique à FST Fès" ;
+  schema:dateCreated "2022" ;
+  schema:creator :houda .
+
+:education3 a schema:EducationalOccupationalCredential ;
+  schema:educationalLevel "Baccalauréat" ;
+  schema:description "BAC filière Sciences Mathématiques A - Fès" ;
+  schema:dateCreated "2019" ;
+  schema:creator :houda .

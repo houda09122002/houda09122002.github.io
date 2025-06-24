@@ -1,0 +1,16 @@
+@prefix schema: <https://schema.org/> .
+@prefix : <https://houdakhiati.dev/contact#> .
+
+:HoudaKhiati a schema:Person ;
+  schema:name "Houda Khiati" ;
+  schema:jobTitle "Développeuse full stack" ;
+  schema:email "houdakht.dev@gmail.com" ;
+  schema:telephone "+33 6 02 56 08 00" ;
+  schema:sameAs <https://www.linkedin.com/in/houda-khiati-725549232/> ;
+  schema:knowsLanguage "français", "anglais", "arabe" ;
+  schema:address [
+    a schema:PostalAddress ;
+    schema:addressLocality "Asnières-sur-Seine" ;
+    schema:addressRegion "Île-de-France" ;
+    schema:addressCountry "FR"
+  ] .

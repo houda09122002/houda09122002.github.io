@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:schema="https://schema.org/">
+
+  <schema:VideoObject rdf:about="https://www.youtube.com/watch?v=yYJ0z5aeprU">
+    <schema:name>Présentation Houda Khiati</schema:name>
+    <schema:description>Présentation multilingue de Houda Khiati – développeuse full stack.</schema:description>
+    <schema:uploadDate>2025-06-21</schema:uploadDate>
+    <schema:inLanguage>fr</schema:inLanguage>
+    <schema:author>
+      <schema:Person>
+        <schema:name>Houda Khiati</schema:name>
+      </schema:Person>
+    </schema:author>
+    <schema:embedUrl>https://www.youtube.com/embed/yYJ0z5aeprU</schema:embedUrl>
+    <schema:contentUrl>https://www.youtube.com/watch?v=yYJ0z5aeprU</schema:contentUrl>
+  </schema:VideoObject>
+
+</rdf:RDF>

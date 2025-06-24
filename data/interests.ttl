@@ -1,0 +1,23 @@
+@prefix ex: <https://houda-khiati.dev/interests/> .
+@prefix schema: <https://schema.org/> .
+
+ex:badminton a schema:Interest ;
+    schema:description "Je joue régulièrement au badminton pour garder la forme."@fr ;
+    schema:name "Badminton"@fr .
+
+ex:cinema a schema:Interest ;
+    schema:description "J'adore regarder des films, notamment les thrillers et les drames psychologiques."@fr ;
+    schema:name "Cinéma"@fr .
+
+ex:cooking a schema:Interest ;
+    schema:description "Je passe du temps à expérimenter de nouvelles recettes marocaines et internationales."@fr ;
+    schema:name "Cuisine"@fr .
+
+ex:travel a schema:Interest ;
+    schema:description "J’aime découvrir de nouvelles cultures à travers mes voyages."@fr ;
+    schema:name "Voyages"@fr .
+
+ex:volunteering a schema:Interest ;
+    schema:description "Je participe à des actions sociales et éducatives en tant que bénévole."@fr ;
+    schema:name "Bénévolat"@fr .
+

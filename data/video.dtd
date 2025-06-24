@@ -1,0 +1,10 @@
+<!ELEMENT videoPage (header, video, footer)>
+<!ELEMENT header (title, description)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT video (url, embedUrl)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT embedUrl (#PCDATA)>
+<!ELEMENT footer (author, date)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT date (#PCDATA)>

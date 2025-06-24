@@ -1,0 +1,14 @@
+@prefix schema: <https://schema.org/> .
+@prefix : <https://www.youtube.com/watch?v=yYJ0z5aeprU#> .
+
+:video a schema:VideoObject ;
+    schema:name "Présentation Houda Khiati" ;
+    schema:description "Présentation multilingue de Houda Khiati – développeuse full stack." ;
+    schema:uploadDate "2025-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    schema:inLanguage "fr" ;
+    schema:author [
+        a schema:Person ;
+        schema:name "Houda Khiati"
+    ] ;
+    schema:embedUrl <https://www.youtube.com/embed/yYJ0z5aeprU> ;
+    schema:contentUrl <https://www.youtube.com/watch?v=yYJ0z5aeprU> .

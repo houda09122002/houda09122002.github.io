@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE education SYSTEM "education.dtd">
+<education>
+  <person>
+    <name>Houda Khiati</name>
+    <jobTitle>Développeuse full stack</jobTitle>
+    <knowsAbout>Développement Web</knowsAbout>
+    <knowsLanguage>français</knowsLanguage>
+    <knowsLanguage>anglais</knowsLanguage>
+    <knowsLanguage>arabe</knowsLanguage>
+  </person>
+  <timeline>
+    <item>
+      <title>Cycle ingénieur à l'Institut Galilée</title>
+      <description>Spécialité informatique industrielle, alternance chez Equativ.</description>
+    </item>
+    <item>
+      <title>Licence MIASHS</title>
+      <description>Université Sidi Mohamed Ben Abdellah, mention très bien.</description>
+    </item>
+    <item>
+      <title>Baccalauréat Sciences Maths</title>
+      <description>Lycée Moulay Driss, mention très bien.</description>
+    </item>
+  </timeline>
+  <certifications>Certifications en développement web, IA et cybersécurité disponibles sur demande.</certifications>
+</education>

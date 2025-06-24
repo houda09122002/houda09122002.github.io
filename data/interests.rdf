@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="https://schema.org/"
+>
+  <rdf:Description rdf:about="https://houda-khiati.dev/interests/cinema">
+    <rdf:type rdf:resource="https://schema.org/Interest"/>
+    <schema:name xml:lang="fr">Cinéma</schema:name>
+    <schema:description xml:lang="fr">J'adore regarder des films, notamment les thrillers et les drames psychologiques.</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://houda-khiati.dev/interests/cooking">
+    <rdf:type rdf:resource="https://schema.org/Interest"/>
+    <schema:name xml:lang="fr">Cuisine</schema:name>
+    <schema:description xml:lang="fr">Je passe du temps à expérimenter de nouvelles recettes marocaines et internationales.</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://houda-khiati.dev/interests/travel">
+    <rdf:type rdf:resource="https://schema.org/Interest"/>
+    <schema:name xml:lang="fr">Voyages</schema:name>
+    <schema:description xml:lang="fr">J’aime découvrir de nouvelles cultures à travers mes voyages.</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://houda-khiati.dev/interests/badminton">
+    <rdf:type rdf:resource="https://schema.org/Interest"/>
+    <schema:name xml:lang="fr">Badminton</schema:name>
+    <schema:description xml:lang="fr">Je joue régulièrement au badminton pour garder la forme.</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://houda-khiati.dev/interests/volunteering">
+    <rdf:type rdf:resource="https://schema.org/Interest"/>
+    <schema:name xml:lang="fr">Bénévolat</schema:name>
+    <schema:description xml:lang="fr">Je participe à des actions sociales et éducatives en tant que bénévole.</schema:description>
+  </rdf:Description>
+</rdf:RDF>

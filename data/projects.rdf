@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:schema="https://schema.org/">
+
+  <schema:CreativeWork rdf:about="https://houdakhiati.dev/project#erp_project">
+    <schema:name>Déploiement d’un ERP industriel</schema:name>
+    <schema:description>Conception de 6 spécifications fonctionnelles, collecte des besoins, tests utilisateurs, et gains mesurés en productivité.</schema:description>
+    <schema:dateCreated>2024</schema:dateCreated>
+    <schema:creator>Houda Khiati</schema:creator>
+  </schema:CreativeWork>
+
+  <schema:CreativeWork rdf:about="https://houdakhiati.dev/project#lafarge_project">
+    <schema:name>Gestion des profils d’accès – Lafarge Holcim</schema:name>
+    <schema:description>Application web en Angular/SpringBoot pour gérer les profils d’accès et le système de pointage temps réel.</schema:description>
+    <schema:dateCreated>2023</schema:dateCreated>
+    <schema:creator>Houda Khiati</schema:creator>
+  </schema:CreativeWork>
+
+  <schema:CreativeWork rdf:about="https://houdakhiati.dev/project#marjane_project">
+    <schema:name>Optimisation des rayons – Marjane Holding</schema:name>
+    <schema:description>Analyse des comportements d’achat avec R et Power BI, amélioration de l’agencement des rayons.</schema:description>
+    <schema:dateCreated>2022</schema:dateCreated>
+    <schema:creator>Houda Khiati</schema:creator>
+  </schema:CreativeWork>
+
+
+
+</rdf:RDF>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<portfolio>
+  <metadata>
+    <name>Houda Khiati – Portfolio</name>
+    <language>fr</language>
+    <description>Portfolio multilingue de Houda Khiati – Développeuse full stack</description>
+    <author>Houda Khiati</author>
+    <dateModified>2025-06-21</dateModified>
+  </metadata>
+  <languages>
+    <lang>fr</lang>
+    <lang>en</lang>
+    <lang>ar</lang>
+  </languages>
+  <cards>
+    <card href="about.html">about</card>
+    <card href="skills.html">skills</card>
+    <card href="experience.html">experience</card>
+    <card href="projects.html">projects</card>
+    <card href="education.html">education</card>
+    <card href="interests.html">interests</card>
+    <card href="contact.html">contact</card>
+    <card href="video.html">video</card>
+  </cards>
+  <person>
+    <name>Houda Khiati</name>
+    <jobTitle>Développeuse full stack</jobTitle>
+    <knowsAbout>Développement Web</knowsAbout>
+    <knowsLanguage>français</knowsLanguage>
+    <knowsLanguage>anglais</knowsLanguage>
+    <knowsLanguage>arabe</knowsLanguage>
+  </person>
+</portfolio>

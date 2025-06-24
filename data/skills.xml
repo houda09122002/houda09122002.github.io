@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE skills SYSTEM "skills.dtd">
+<skills>
+  <section>
+    <title>Frontend</title>
+    <description>HTML, CSS, JavaScript, React, Angular, Tailwind...</description>
+  </section>
+  <section>
+    <title>Backend</title>
+    <description>Node.js, NestJS, C#, .NET, Spring Boot...</description>
+  </section>
+  <section>
+    <title>Data / BI</title>
+    <description>Python, R, Power BI, Pandas, Machine Learning...</description>
+  </section>
+  <section>
+    <title>Langages</title>
+    <description>TypeScript, Python, C, Java, SQL, Bash...</description>
+  </section>
+  <section>
+    <title>Bases de données</title>
+    <description>PostgreSQL, MySQL, MongoDB, Redis...</description>
+  </section>
+  <section>
+    <title>Outils</title>
+    <description>Git, Docker, Linux, Figma, VS Code, Postman...</description>
+  </section>
+</skills>

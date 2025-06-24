@@ -1,0 +1,7 @@
+<!ELEMENT about (personName, jobTitle, description, knowsLanguage+, alumniOf)>
+<!ELEMENT personName (#PCDATA)>
+<!ELEMENT jobTitle (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT knowsLanguage (#PCDATA)>
+<!ELEMENT alumniOf (universityName)>
+<!ELEMENT universityName (#PCDATA)>

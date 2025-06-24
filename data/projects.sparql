@@ -1,0 +1,13 @@
+PREFIX schema: <https://schema.org/>
+
+SELECT ?titre ?annee ?description ?url
+WHERE {
+  ?project a ?type ;
+           schema:name ?titre ;
+           schema:dateCreated ?annee ;
+           schema:description ?description .
+  FILTER(?type IN (schema:CreativeWork, schema:MediaObject))
+
+  OPTIONAL { ?project schema:contentUrl ?url . }
+}
+ORDER BY DESC(?annee)
