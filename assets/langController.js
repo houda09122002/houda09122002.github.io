@@ -41,5 +41,59 @@ function applyContent(content) {
     }
   });
 }
+document.addEventListener("DOMContentLoaded", () => {
+  // Crée le bouton
+  const toggleBtn = document.createElement("button");
+  toggleBtn.className = "theme-toggle";
+  toggleBtn.setAttribute("aria-label", "Changer le thème");
+  toggleBtn.innerHTML = `
+    <svg id="theme-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="5"></circle>
+      <path d="M12 1v2m0 18v2m9-9h2M1 12H3
+               m16.95-7.05l-1.414 1.414
+               M4.464 19.536l-1.414-1.414
+               m0-12.728l1.414 1.414
+               M19.536 19.536l-1.414-1.414"/>
+    </svg>
+  `;
+
+  // Ajoute en haut à gauche du body
+  document.body.appendChild(toggleBtn);
+
+  // Applique le thème enregistré
+  const saved = localStorage.getItem("theme") || "light";
+  document.documentElement.setAttribute("data-theme", saved);
+  if (saved === "dark") document.body.classList.add("dark-mode");
+  updateIcon(saved);
+
+  // Gère le clic
+  toggleBtn.addEventListener("click", () => {
+    const current = document.documentElement.getAttribute("data-theme");
+    const next = current === "dark" ? "light" : "dark";
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem("theme", next);
+    document.body.classList.toggle("dark-mode");
+    updateIcon(next);
+  });
+
+  // Changement d’icône
+  function updateIcon(theme) {
+    const icon = document.getElementById("theme-icon");
+    if (!icon) return;
+    icon.innerHTML = theme === "dark"
+      ? `<path d="M21 12.79A9 9 0 1 1 11.21 3 A7 7 0 0 0 21 12.79z"/>` // 🌙
+      : `<circle cx="12" cy="12" r="5"></circle>
+         <path d="M12 1v2m0 18v2m9-9h2M1 12H3
+                  m16.95-7.05l-1.414 1.414
+                  M4.464 19.536l-1.414-1.414
+                  m0-12.728l1.414 1.414
+                  M19.536 19.536l-1.414-1.414"/>`; // ☀️
+
+    icon.style.transition = "transform 0.4s ease";
+    icon.style.transform = "rotate(360deg)";
+    setTimeout(() => (icon.style.transform = "rotate(0deg)"), 400);
+  }
+});
 
 

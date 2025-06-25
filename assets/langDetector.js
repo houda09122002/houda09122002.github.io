@@ -1,6 +1,3 @@
-// assets/langDetector.js
-
-// Fonction pour détecter la langue à partir de l'URL ou du navigateur
 function detectLang() {
   const urlParams = new URLSearchParams(window.location.search);
   let lang = urlParams.get('lang');
