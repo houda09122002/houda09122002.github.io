@@ -11,7 +11,6 @@ if (isset($_GET['lang'])) {
   $lang = in_array($nav, ['fr', 'en', 'ar']) ? $nav : 'fr';
 }
 
-// Définir la langue des sous-titres pour YouTube
 $videoId = "yYJ0z5aeprU";
 $ccLang = match($lang) {
   'en' => 'en',
@@ -29,7 +28,7 @@ $videoEmbedUrl = "https://www.youtube.com/embed/{$videoId}?cc_lang_pref={$ccLang
   <meta http-equiv="Content-Language" content="<?= $lang ?>">
   <title>Projets | Houda Khiati</title>
 
-  <!-- Langues -->
+
   <link rel="alternate" hreflang="fr" href="?lang=fr" />
   <link rel="alternate" hreflang="en" href="?lang=en" />
   <link rel="alternate" hreflang="ar" href="?lang=ar" />
@@ -49,14 +48,14 @@ $videoEmbedUrl = "https://www.youtube.com/embed/{$videoId}?cc_lang_pref={$ccLang
   <script defer src="assets/langController.js"></script>
 </head>
 <body>
-  <!-- Sélecteur de langue -->
+
   <div class="lang-switcher">
     <a href="?lang=fr">🇫🇷</a>
     <a href="?lang=en">🇬🇧</a>
     <a href="?lang=ar">🇲🇦</a>
   </div>
 
-  <!-- En-tête -->
+
   <header class="hero" data-aos="fade-down">
     <span class="icon">🧠</span>
     <h1 class="hero-title" data-id="projects_title"></h1>
@@ -73,7 +72,7 @@ $videoEmbedUrl = "https://www.youtube.com/embed/{$videoId}?cc_lang_pref={$ccLang
     <span property="knowsLanguage">arabe</span>
   </div>
 
-  <!-- Projets -->
+
   <main class="cards-container">
     <div class="card" data-aos="zoom-in-up" data-aos-delay="0">
       <span class="icon">📅</span>
@@ -95,12 +94,11 @@ $videoEmbedUrl = "https://www.youtube.com/embed/{$videoId}?cc_lang_pref={$ccLang
 
   </main>
 
-  <!-- Retour -->
+
   <div class="back-button-container" data-aos="fade-up">
     <a href="index.php" class="back-button" data-id="back_button"></a>
   </div>
 
-  <!-- Footer -->
   <footer>
     <p>&copy; 2025 Houda Khiati</p>
   </footer>

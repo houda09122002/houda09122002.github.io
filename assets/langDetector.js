@@ -11,7 +11,6 @@ function detectLang() {
     lang = ['fr', 'en', 'ar'].includes(navLang) ? navLang : 'fr';
   }
 
-  // Enregistre la langue détectée
   localStorage.setItem('lang', lang);
 
   return lang;

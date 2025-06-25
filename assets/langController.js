@@ -36,13 +36,12 @@ function applyContent(content) {
   document.querySelectorAll("[data-id]").forEach(el => {
     const id = el.getAttribute("data-id");
     if (content[id]) {
-      el.innerHTML = content[id]; // 👈 CORRECTION ICI
+      el.innerHTML = content[id]; 
       if (el.tagName === "HTML") el.lang = content[id];
     }
   });
 }
 document.addEventListener("DOMContentLoaded", () => {
-  // Crée le bouton
   const toggleBtn = document.createElement("button");
   toggleBtn.className = "theme-toggle";
   toggleBtn.setAttribute("aria-label", "Changer le thème");
@@ -58,16 +57,11 @@ document.addEventListener("DOMContentLoaded", () => {
     </svg>
   `;
 
-  // Ajoute en haut à gauche du body
   document.body.appendChild(toggleBtn);
-
-  // Applique le thème enregistré
   const saved = localStorage.getItem("theme") || "light";
   document.documentElement.setAttribute("data-theme", saved);
   if (saved === "dark") document.body.classList.add("dark-mode");
-  updateIcon(saved);
 
-  // Gère le clic
   toggleBtn.addEventListener("click", () => {
     const current = document.documentElement.getAttribute("data-theme");
     const next = current === "dark" ? "light" : "dark";
@@ -77,7 +71,6 @@ document.addEventListener("DOMContentLoaded", () => {
     updateIcon(next);
   });
 
-  // Changement d’icône
   function updateIcon(theme) {
     const icon = document.getElementById("theme-icon");
     if (!icon) return;

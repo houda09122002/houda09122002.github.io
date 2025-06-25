@@ -64,7 +64,7 @@ if (isset($_GET['lang'])) {
     <span property="knowsLanguage">arabe</span>
   </div>
 
-  <!-- Cartes expériences avec animation -->
+
   <main class="cards-container">
     <div class="card" data-aos="zoom-in-up" data-aos-delay="0">
       <span class="icon">💼</span>

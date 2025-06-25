@@ -32,8 +32,6 @@ function randomImage($folder) {
   <link rel="alternate" hreflang="fr" href="?lang=fr"/>
   <link rel="alternate" hreflang="en" href="?lang=en"/>
   <link rel="alternate" hreflang="ar" href="?lang=ar"/>
-
-  <!-- Styles -->
   <link rel="stylesheet" href="assets/style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
 
@@ -57,7 +55,7 @@ function randomImage($folder) {
     <a href="?lang=ar">🇲🇦</a>
   </div>
 
-  <!-- En-tête -->
+
   <header class="hero" data-aos="fade-down">
     <span class="icon">💻</span>
     <h1 class="hero-title" data-id="skills_title"></h1>
@@ -74,7 +72,7 @@ function randomImage($folder) {
     <span property="knowsLanguage">arabe</span>
   </div>
 
-  <!-- Cartes compétences -->
+
   <main class="cards-container">
     <div class="card" data-aos="zoom-in-up" data-aos-delay="0">
       <span class="icon">💻</span>
@@ -119,7 +117,7 @@ function randomImage($folder) {
     </div>
   </main>
 
-  <!-- Bouton retour -->
+
   <div class="back-button-container" data-aos="fade-up">
     <a href="index.php" class="back-button" data-id="back_button"></a>
   </div>

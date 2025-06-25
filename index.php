@@ -21,12 +21,9 @@ if (isset($_GET['lang'])) {
 
   <title>Houda Khiati – Portfolio</title>
 
-  <!-- alternate links for SEO -->
   <link rel="alternate" hreflang="fr" href="?lang=fr" />
   <link rel="alternate" hreflang="en" href="?lang=en" />
   <link rel="alternate" hreflang="ar" href="?lang=ar" />
-
-  <!-- Styles -->
   <link rel="stylesheet" href="assets/style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
 
@@ -45,33 +42,27 @@ if (isset($_GET['lang'])) {
   <script defer src="assets/langController.js"></script>
 </head>
 <script>
-  // attend que langController ait appliqué la langue
   document.addEventListener("DOMContentLoaded", async () => {
     const lang  = "<?= $lang ?>";            // langue actuelle côté PHP
     const txtEl = document.getElementById("currently-text");
 
-    // charge le JSON multilingue
     const res  = await fetch("data/content.json");
     const data = await res.json();
 
-    // récupère le tableau de phrases pour la langue, fallback fr
     const messages = (data.currently_messages[lang] || data.currently_messages["fr"]).slice();
     let idx = 0;
 
-    // fonction d’affichage + petite animation fade
     const showMsg = () => {
       txtEl.style.opacity = 0;
       setTimeout(() => {
         txtEl.textContent = messages[idx];
         txtEl.style.opacity = 1;
-      }, 300);                // moitié du fondu
+      }, 300);              
 
       idx = (idx + 1) % messages.length;
     };
 
-    // premier affichage immédiat
     showMsg();
-    // puis toutes les 3 s
     setInterval(showMsg, 3000);
   });
 
@@ -108,7 +99,7 @@ if (isset($_GET['lang'])) {
       }, 300);
     };
 
-    setInterval(showTip, 4000); // toutes les 4 sec
+    setInterval(showTip, 4000); 
   });
 </script>
 <div class="mascotte-container">
@@ -124,7 +115,6 @@ if (isset($_GET['lang'])) {
     <a href="?lang=ar">🇲🇦</a>
   </div>
 
-  <!-- ===== Header / Intro ===== -->
   <header class="hero" data-aos="fade-up">
     <img src="assets/images/bitmoji.png" alt="Houda Khiati" class="avatar" data-aos="zoom-in">
     <h1 class="hero-title" data-id="home_welcome" data-aos="fade-up" data-aos-delay="100"></h1>
@@ -142,7 +132,7 @@ if (isset($_GET['lang'])) {
 </div>
 
 
-  <!-- ===== Navigation cards ===== -->
+
   <main class="cards-container">
     <a class="card" href="about.php?lang=<?= $lang ?>" data-aos="zoom-in-up">
       <span class="icon">👩‍💼</span>
